@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Righteous&family=Roboto:wght@100;400;500&family=Sarala&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #FFF2E7;
+    font-size: 100%;
+    background-image: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+}
+
+.cabecalho-imagem {
+    position: relative;
+    right: 5em;
+    height: 62px;
+    width: 62px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    border-top: 0.4px solid #FFF2E7;
+    ;
+    margin-bottom: 50px;
+}
+
+
+
+.container-primary{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px
+}
+
+.subtitle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.13px;
+}
+
+.button {
+    width: 185px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #ECD6C4;
+    color: #2F2325;
+    font-size: 24px;
+    text-align: center;
+}
+
+.line-one {
+    width: 276.04px;
+    margin: 2em auto 3em auto;
+}
+
+.container-second {
+    text-align: center;
+}
+
+.subtitle-second {
+    font-size: 24px;
+    height: 3em;
+    font-family: 'Righteous',sans-serif;
+}
+
+.paragraph {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 2.5em;
+}
+
+.marked {
+    font-weight: 700;
+}
+
+.rodape {
+    width: 100%;
+    margin: 3em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containers {
+    min-width: 990px;
+}
