@@ -8,9 +8,9 @@
 }
 
 body {
+    background-color: #8B5B50;
     color: #FFF2E7;
     font-size: 100%;
-    background-image: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
 }
 .cabecalho {
     display: flex;
@@ -40,11 +40,8 @@ body {
 
 .container {
     border-top: 0.4px solid #FFF2E7;
-    ;
     margin-bottom: 50px;
 }
-
-
 
 .container-primary{
     display: flex;
@@ -61,7 +58,7 @@ body {
 .title {
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 64px
+    font-size: 64px;
 }
 
 .subtitle {
@@ -75,7 +72,7 @@ body {
     width: 185px;
     height: 67px;
     border-radius: 20px;
-    background-color: #ECD6C4;
+    background-color: #FFF2E7;
     color: #2F2325;
     font-size: 24px;
     text-align: center;
@@ -118,3 +115,19 @@ body {
 .containers {
     min-width: 990px;
 }
+
+.line-second {
+    min-width: 990px;
+}
+
+
+@media (max-width: 480px) {
+    .container-primary {
+        padding-top: 4em;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cabecalho-imagem {
+        padding-left: 1em;
+    }
