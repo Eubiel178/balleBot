@@ -129,11 +129,7 @@ body {
         display: flex;
         flex-direction: column;
     }
-}
-
-@media (max-width: 420px) {
-    .odape-imagee {
-        display: block;
-        padding: 10px;
+    .rodape.container {
+        margin-bottom: 0px;
     }
 }
