@@ -11,6 +11,7 @@ body {
     background-color: #8B5B50;
     color: #FFF2E7;
     font-size: 100%;
+    height: 100vh;
 }
 .cabecalho {
     display: flex;
@@ -131,3 +132,4 @@ body {
     .cabecalho-imagem {
         padding-left: 1em;
     }
+}
